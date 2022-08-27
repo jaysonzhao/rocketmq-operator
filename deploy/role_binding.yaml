@@ -20,7 +20,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: rocketmq-operator
-  namespace: default
+  namespace: rocketmq
 roleRef:
   kind: ClusterRole
   name: rocketmq-operator
